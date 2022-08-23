@@ -65,7 +65,7 @@ note: if you prefer to use vnc (like me, run:
 
 <br/>
 
-to explain these commands:
+**to explain these commands**:
 
 -cdrom points to the iso of alpine
 
@@ -126,7 +126,7 @@ now, you have unlocked the community packages not included in the main alpine in
 
 <br/>
 
-setup docker on alpine.
+## setup docker on alpine.
 
 now, you may think it would be as simple as just:
 
@@ -172,7 +172,7 @@ to stop a docker container, run:
 
 <br/>
 
-setup a terminal multiplexor(tmux) in alpine
+## setup a terminal multiplexor(tmux) in alpine
 
 in the case that you would like to run multiple services at once in alpine, such as a discord bot, a discord server, and a plex server, it is recommended you get tmux.
 
@@ -216,7 +216,7 @@ very useful if you open a lot of sessions at once.
 
 <br/>
 
-setup python in alpine
+## setup python in alpine
 
 now everybody knows that having python in your back pocket is always useful, though it's not as simple as pkg install python is in termux. here are the commands needed to install it on alpine:
 
