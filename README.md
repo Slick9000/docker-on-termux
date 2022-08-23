@@ -58,13 +58,13 @@ pkg install x11-repo
 x11-repo contains the package for [qemu](https://www.qemu.org) and it's tools.
 
 ```
-pkg install [qemu](https://www.qemu.org)-system-x86_64 -y && pkg install [qemu](https://www.qemu.org)-utils
+pkg install qemu-system-x86_64 -y && pkg install qemu-utils
 ```
 
 yay! you have [qemu](https://www.qemu.org) installed! now, to create a boot image for [qemu](https://www.qemu.org) to be able to read.
 
 ```
-[qemu](https://www.qemu.org)-img create -f qcow2 hdd.img 16G
+qemu-img create -f qcow2 hdd.img 16G
 ``` 
 
 16G can be altered to any storage size you want, in gigabytes.
@@ -72,19 +72,19 @@ yay! you have [qemu](https://www.qemu.org) installed! now, to create a boot imag
 now, you need to actually download the file for [alpine](https://www.alpinelinux.org) linux!
 
 ```
-wget https://dl-cdn.[alpine](https://www.alpinelinux.org)linux.org/[alpine](https://www.alpinelinux.org)/v3.16/releases/x86_64/[alpine](https://www.alpinelinux.org)-virt-3.16.2-x86_64.iso
+wget https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-virt-3.16.2-x86_64.iso
 ```
 
 now, to actually run [alpine](https://www.alpinelinux.org) linux in [qemu](https://www.qemu.org)! run:
 
 ```
-[qemu](https://www.qemu.org)-system-x86_64 -cdrom [alpine](https://www.alpinelinux.org)-virt-3.12.3-x86_64.iso -m 2048 -hda hdd.img -nographic
+qemu-system-x86_64 -cdrom alpine-virt-3.12.3-x86_64.iso -m 2048 -hda hdd.img -nographic
 ```
 
-note: if you prefer to use vnc (like me, run:
+note: if you prefer to use vnc (like me), run:
 
 ```
-[qemu](https://www.qemu.org)-system-x86_64 -cdrom [alpine](https://www.alpinelinux.org)-virt-3.12.3-x86_64.iso -m 2048 -hda hdd.img -vnc 127.0.0.1:1
+qemu-system-x86_64 -cdrom alpine-virt-3.12.3-x86_64.iso -m 2048 -hda hdd.img -vnc 127.0.0.1:1
 ```
 
 <br/>
@@ -102,7 +102,7 @@ note: if you prefer to use vnc (like me, run:
 once you're all booted up, it will now ask for a localhost login password. the pass is: root
 
 ```
-setup-[alpine](https://www.alpinelinux.org)
+setup-alpine
 ``` 
 
 to perform the regular [alpine](https://www.alpinelinux.org) setup. (personally, i usually set the username and password both as root, set the hdd.img as the sys storage partition, and leave everything else as default).
@@ -116,13 +116,13 @@ poweroff
 to relaunch, run:
 
 ```
-[qemu](https://www.qemu.org)-system-x86_64 -hda hdd.img -m 2048 -nographic
+qemu-system-x86_64 -hda hdd.img -m 2048 -nographic
 ```
 
 again, if you prefer to use vnc, run:
 
 ```
-[qemu](https://www.qemu.org)-system-x86_64 -hda hdd.img -m 2048 -vnc 127.0.0.1:1
+qemu-system-x86_64 -hda hdd.img -m 2048 -vnc 127.0.0.1:1
 ```
 
 these will be the commands used for every boot from now on.
@@ -169,7 +169,7 @@ now, you have unlocked the community packages not included in the main [alpine](
 now, you may think it would be as simple as just:
 
 ```
-apk add --update [docker](https://www.docker.com)
+apk add --update docker
 ```
 
 and then just:
@@ -193,7 +193,7 @@ for whatever reason, it is not automatically set as a service on install.
 so you simply have to set it as a default service! you can do so by performing:
 
 ```
--update add [docker](https://www.docker.com) default 
+-update add docker default 
 ```
 
 this will make the [docker](https://www.docker.com) service run automatically on all future startups of [alpine](https://www.alpinelinux.org).
@@ -201,7 +201,7 @@ this will make the [docker](https://www.docker.com) service run automatically on
 however to begin it without restarting, run:
 
 ```
-rc-service [docker](https://www.docker.com) start
+rc-service docker start
 ```
 
 and now you can use [docker](https://www.docker.com)!
@@ -209,17 +209,19 @@ and now you can use [docker](https://www.docker.com)!
 to see all existing [docker](https://www.docker.com) containers, run:
 
 ```
-[docker](https://www.docker.com) ps -a
+docker ps -a
 ```
 
 to stop a [docker](https://www.docker.com) container, run:
 
 ```
-[docker](https://www.docker.com) stop {[docker](https://www.docker.com) container id}
+docker stop {docker container id}
 ```
 
+to remove a [docker](https://www.docker.com) container, run:
+
 ```
-[docker](https://www.docker.com) rm {[docker](https://www.docker.com) container id}
+docker rm {docker container id}
 ```
 
 <br/>
@@ -231,13 +233,13 @@ in the case that you would like to run multiple services at once in [alpine](htt
 to install, run:
 
 ```
-apk add --update [tmux](https://github.com/tmux/tmux/wiki)
+apk add --update tmux
 ```
 
 from there to create a window, you can do:
 
 ```
-[tmux](https://github.com/tmux/tmux/wiki)
+tmux
 ```
 
 now everything you do in this environment is set to this window. do:
@@ -251,19 +253,19 @@ to leave the window
 to create a new window, simply do:
 
 ```
-[tmux](https://github.com/tmux/tmux/wiki)
+tmux
 ```
 
 to reattach to a window, do:
 
 ```
-[tmux](https://github.com/tmux/tmux/wiki) attach -t {session number}
+tmux attach -t {session number}
 ```
 
 to view all running windows, do:
 
 ```
-[tmux](https://github.com/tmux/tmux/wiki) ls
+tmux ls
 ```
 
 to close a window, do:
@@ -275,13 +277,13 @@ Ctrl-B + X (while attached)
 or run the command
 
 ```
-[tmux](https://github.com/tmux/tmux/wiki) kill-session -t {session number}
+tmux kill-session -t {session number}
 ```
 
 to kill all sessions besides the specified session, do:
 
 ```
-[tmux](https://github.com/tmux/tmux/wiki) kill-session -a -t {session number}
+tmux kill-session -a -t {session number}
 ```
 
 very useful if you open a lot of sessions at once.
@@ -303,15 +305,15 @@ apk add --update curl
 now everybody knows that having [python](https://www.python.org) in your back pocket is always useful, though it's not as simple as pkg install [python](https://www.python.org) is in [termux](https://github.com/termux/termux-app). here are the commands needed to install it on [alpine](https://www.alpinelinux.org):
 
 ```
-apk add --update --no-cache [python](https://www.python.org)3
+apk add --update --no-cache python3
 ```
 
 ```
-ln -sf [python](https://www.python.org)3 /usr/bin/[python](https://www.python.org)
+ln -sf python3 /usr/bin/python
 ```
 
 ```
-[python](https://www.python.org)3 -m ensurepip
+python3 -m ensurepip
 ```
 
 ```
