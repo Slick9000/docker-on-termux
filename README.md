@@ -216,6 +216,14 @@ very useful if you open a lot of sessions at once.
 
 <br/>
 
+## setup curl in alpine
+
+probably the easiest setup in this tutorial, simply run:
+
+> apk add --update curl
+
+<br/>
+
 ## setup python in alpine
 
 now everybody knows that having python in your back pocket is always useful, though it's not as simple as pkg install python is in termux. here are the commands needed to install it on alpine:
@@ -230,12 +238,8 @@ now everybody knows that having python in your back pocket is always useful, tho
 
 <br/>
 
-these are all of the setup tips i can provide for setting up alpine through qemu in termux, docker, tmux window manager, as well as python. i use this setup everyday, and it runs flawlessly once all set up. i urge you to give this a try yourself, it's quite satisfying.
+these are all of the setup tips i can provide for setting up alpine through qemu in termux, docker, tmux window manager, curl, as well as python. i use this setup everyday, and it runs flawlessly once all set up. i urge you to give this a try yourself, it's quite satisfying.
 
 of course, it is also possible to set up a desktop environment for alpine and view it through vnc, but I won't go through how to set that up here. any youtube video can explain that. this was to assist with things that may be difficult to understand and setup in qemu and alpine for most users.
 
-however, a list of compatible desktop environments can be found here on the official alpine wiki: https://wiki.alpinelinux.org/wiki/Desktop_environments_and_Window_managers
-
-if you'd like to give a donation, feel free to do so at:
-
-{daddy's paypal link from the m3u8 tester repo}
+however, a list of compatible desktop environments can be found here on the [official alpine wiki](https://wiki.alpinelinux.org/wiki/Desktop_environments_and_Window_managers)!
