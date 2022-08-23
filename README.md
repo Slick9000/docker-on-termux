@@ -1,5 +1,5 @@
-# alpine-on-termux
-setup [alpine](https://www.alpinelinux.org) on [termux](https://github.com/termux/termux-app) with [qemu](https://www.qemu.org), as well as other things.
+# docker-on-termux
+setup [docker](https://www.docker.com) on [alpine](https://www.alpinelinux.org) on through [qemu](https://www.qemu.org) on [termux](https://www.qemu.org), as well as other things.
 
 ## ☕ donations
 
@@ -23,7 +23,7 @@ it also allows me to run programs which typically require a rooted device withou
 
 <br/>
 
-## why do you prefer to use a phone as a server?
+## why do you prefer to use a phone as a docker server?
 
 i have several old android devices that are currently not in use, and i didn't have a device like a raspberry pi to run a linux server on. 
 
@@ -41,7 +41,7 @@ ubuntu is also around 2-3gb in size, while [alpine](https://www.alpinelinux.org)
 
 <br/>
 
-## instructions to install
+## instructions to install [qemu](https://www.qemu.org) and [alpine](https://www.alpinelinux.org)
 
 after installing [termux](https://github.com/termux/termux-app), run:
 
