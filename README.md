@@ -1,5 +1,5 @@
 # alpine-on-termux
-setup alpine on termux with qemu, as well as other things.
+setup alpine on termux with qemu, as well as docker, tmux, curl and python.
 
 ## ☕ donations
 
