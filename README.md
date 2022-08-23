@@ -129,11 +129,11 @@ these will be the commands used for every boot from now on.
 
 <br/>
 
-unlock the full functionality of the package manager in [alpine](https://www.alpinelinux.org)
+## unlock full functionality of the package manager in [alpine](https://www.alpinelinux.org)
 
 to install some programs such as [docker](https://www.docker.com), you will need to unlock the community package in the apk package manager.
 
-to do so, you'll need to edit the packages file using a text editor. i'll be using vim for this tutorial. install vim by running:
+to do so, you'll need to edit the packages file using a text editor. i'll be using [vim](https://www.vim.org) for this tutorial. install [vim](https://www.vim.org) by running:
 
 ```
 apk add --update vim
@@ -148,7 +148,7 @@ vim /etc/apk/repositories
 once in here, you must remove the # (comment character) from the second line, which says:
 #http://mirror.reeningne.net/alpine/v3.16/community
 
-this is a simple walkthrough as to how to edit the file with vim (for those familiar with vim, you can skip this part):
+this is a simple walkthrough as to how to edit the file with [vim](https://www.vim.org) (for those familiar with [vim](https://www.vim.org), you can skip this part):
 
 >  press i to enter insert mode
 
@@ -161,6 +161,8 @@ http://mirror.reeningne.net/alpine/v3.16/community
 >  exit by pressing : (colon), typing wq and pressing enter.
 
 now, you have unlocked the community packages not included in the main [alpine](https://www.alpinelinux.org) installation such as [docker](https://www.docker.com).
+
+for those unfamiliar with vim that enjoyed using it, you can learn more with the [cheat sheet!](https://vimsheet.com)
 
 <br/>
 
