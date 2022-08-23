@@ -19,7 +19,7 @@ if you are unaware as to what [qemu](https://www.qemu.org) is, [qemu](https://ww
 
 in my use case, i use [qemu](https://www.qemu.org) to run [docker](https://www.docker.com), which usually cannot run natively on [termux](https://github.com/termux/termux-app) due to limitations in the android kernel.
 
-it also allows me to run programs which typically require a rooted device without having to root my phone (i prefer not to root my android device)
+it also allows me to run programs which typically require a rooted device without having to root my phone (i prefer not to root my android device).
 
 <br/>
 
