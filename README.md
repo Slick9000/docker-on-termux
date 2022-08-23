@@ -11,7 +11,7 @@ while completely optional, it would be highly appreciated if you could donate if
 
 ## what is [qemu](https://www.qemu.org)?
 
-if you are unaware as to what [qemu](https://www.qemu.org) is, [qemu](https://www.qemu.org), is a free and open-source emulator, that is able to emulate machine processors with full operating system emulation, similar to other virtual machine applications such as virtualbox, allowing you to run one operating system on another. however [qemu](https://www.qemu.org) works natively as a package in [termux](https://github.com/termux/termux-app).
+if you are unaware as to what [qemu](https://www.qemu.org) is, [qemu](https://www.qemu.org), is a free and open-source emulator, that is able to emulate machine processors with full operating system emulation, similar to other virtual machine applications such as [virtualbox](https://www.virtualbox.org/), allowing you to run one operating system on another. however [qemu](https://www.qemu.org) works natively as a package in [termux](https://github.com/termux/termux-app).
 
 <br/>
 
