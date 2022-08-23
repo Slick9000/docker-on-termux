@@ -174,7 +174,9 @@ apk add --update docker
 
 and then just:
 
->  [docker](https://www.docker.com) run {package}
+```
+docker run {package}
+```
 
 ...right? well... no.
 
