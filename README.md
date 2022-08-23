@@ -326,7 +326,7 @@ pip3 install --no-cache --upgrade pip setuptools
 
 <br/>
 
-these are all of the setup tips i can provide for setting up [alpine](https://www.alpinelinux.org) through [qemu](https://www.qemu.org) in [termux](https://github.com/termux/termux-app), with [docker](https://www.docker.com), [tmux](https://github.com/tmux/tmux/wiki) terminal multiplexer, curl, as well as [python](https://www.python.org). i use this setup everyday, and it runs flawlessly once all set up. i urge you to give this a try yourself, it's quite satisfying.
+these are all of the setup tips i can provide for setting up [alpine](https://www.alpinelinux.org) through [qemu](https://www.qemu.org) in [termux](https://github.com/termux/termux-app), with [docker](https://www.docker.com), [tmux](https://github.com/tmux/tmux/wiki) terminal multiplexer, curl, as well as [python](https://www.python.org). i use this setup everyday, and it runs flawlessly once all set up. give it a try yourself if you'd like.
 
 of course, it is also possible to set up a desktop environment for [alpine](https://www.alpinelinux.org) and view it through vnc, but I won't go through how to set that up here. any youtube video can explain that. this was to assist with things that may be difficult to understand and setup in [qemu](https://www.qemu.org) and [alpine](https://www.alpinelinux.org) for most users.
 
