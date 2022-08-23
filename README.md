@@ -33,7 +33,7 @@ ubuntu is also around 2-3gb in size, while alpine's is much smaller (the iso for
 
 <br/>
 
-instructions to install:
+### instructions to install:
 
 > install termux
 
