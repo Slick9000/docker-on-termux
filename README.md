@@ -17,9 +17,11 @@ if you are unaware as to what [qemu](https://www.qemu.org) is, [qemu](https://ww
 
 ## why use [qemu](https://www.qemu.org)/a virtual linux environment on [termux](https://github.com/termux/termux-app)?
 
-in my use case, i use [qemu](https://www.qemu.org) to run [docker](https://www.docker.com), which usually cannot run natively on [termux](https://github.com/termux/termux-app) due to limitations in the android kernel.
+- in my use case, i use [qemu](https://www.qemu.org) to run [docker](https://www.docker.com), which usually cannot run natively on [termux](https://github.com/termux/termux-app) due to limitations in the android kernel.
 
-it also allows me to run programs which typically require a rooted device without having to root my phone (i prefer not to root my android device).
+- it also allows me to run programs which typically require a rooted device without having to root my phone (i prefer not to root my android device).
+
+- on top of all of that, transfers from one device to another are made easy, as all you need to transfer is the boot image, and reinstall [qemu](https://www.qemu.org) on the new device, and all of the setup remains identical (tested and works flawlessly).
 
 <br/>
 
@@ -38,6 +40,8 @@ simply put, i tried ubuntu, but it either didn't want to boot at all, or it take
 after some searching for other distros i decided to try [alpine](https://www.alpinelinux.org). [alpine](https://www.alpinelinux.org) has a distribution called virt, which is designed specifically for virtual machines such as [qemu](https://www.qemu.org) and works very well. i was able to install and setup in less than 10 minutes. 
 
 ubuntu is also around 2-3gb in size, while [alpine](https://www.alpinelinux.org)'s is much smaller (the iso for [alpine](https://www.alpinelinux.org) virt is ~39mb, and when setup it's very small in size as well). while for the modern user this may not be problematic, it's still nice to prevent bloating your device storage.
+
+[*] keep in mind, [qemu](https://www.qemu.org) will take a while to boot [alpine](https://www.alpinelinux.org) (sometimes it can take up to 5 minutes), but once it's started, it works flawlessly!
 
 <br/>
 
