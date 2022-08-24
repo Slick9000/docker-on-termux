@@ -41,7 +41,7 @@ after some searching for other distros i decided to try [alpine](https://www.alp
 
 ubuntu is also around 2-3gb in size, while [alpine](https://www.alpinelinux.org)'s is much smaller (the iso for [alpine](https://www.alpinelinux.org) virt is ~39mb, and when setup it's very small in size as well). while for the modern user this may not be problematic, it's still nice to prevent bloating your device storage.
 
-[*] keep in mind, [qemu](https://www.qemu.org) will take a while to boot [alpine](https://www.alpinelinux.org) (sometimes it can take up to 5 minutes), but once it's started, it works flawlessly!
+[*] **keep in mind, [qemu](https://www.qemu.org) will take a while to boot [alpine](https://www.alpinelinux.org) (sometimes it can take up to 5 minutes). so don't think that it's not working, it's simply just qemu's boot time for alpine. once it's started however, it works flawlessly!**
 
 <br/>
 
