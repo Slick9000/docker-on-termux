@@ -201,7 +201,7 @@ for whatever reason, it is not automatically set as a service on install.
 so you simply have to set it as a default service! you can do so by performing:
 
 ```
--update add docker default 
+rc-update add docker default 
 ```
 
 this will make the [docker](https://www.docker.com) service run automatically on all future startups of [alpine](https://www.alpinelinux.org).
@@ -214,11 +214,11 @@ rc-service docker start
 
 and now you can use [docker](https://www.docker.com)!
 
-to see all existing [docker](https://www.docker.com) containers, run:
+obviously to run a docker container, run:
 
 ```
-docker ps -a
-```
+docker run {args}
+ ```
 
 to stop a [docker](https://www.docker.com) container, run:
 
@@ -226,11 +226,35 @@ to stop a [docker](https://www.docker.com) container, run:
 docker stop {docker container id}
 ```
 
+to see all existing [docker](https://www.docker.com) containers, run:
+
+```
+docker ps -a
+```
+
 to remove a [docker](https://www.docker.com) container, run:
 
 ```
 docker rm {docker container id}
 ```
+ 
+ to view installed docker images, run:
+ 
+ ```
+ docker images -a
+ ```
+ 
+ to delete a docker image, run:
+ 
+ ```
+ docker rmi {image id}
+ ```
+ 
+ to remove *all* docker resources (containers, volumes, networks, etc), run:
+ 
+ ```
+ docker system prune -a
+ ```
 
 <br/>
 
