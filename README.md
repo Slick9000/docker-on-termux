@@ -175,7 +175,7 @@ for those unfamiliar with vim that enjoyed using it, you can learn more with the
 now, you may think it would be as simple as just:
 
 ```
-apk add --update docker
+apk add --update docker openrc
 ```
 
 and then just:
