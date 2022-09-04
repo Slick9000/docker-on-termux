@@ -31,6 +31,8 @@ i have several old android devices that are currently not in use, and i didn't h
 
 with [termux](https://github.com/termux/termux-app), i knew it would be possible to run my [docker](https://www.docker.com) server through it. all [termux](https://github.com/termux/termux-app) requires is some storage and an android 7+ device and you are good to go, which would save you money from having to buy another device for a server.
 
+**edit:** since then, i've been using it on the nvidia shield (2015) as a server rather than my phone, but the same principal applies.
+
 <br/>
 
 ## why [alpine](https://www.alpinelinux.org)?
