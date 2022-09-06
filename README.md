@@ -416,6 +416,8 @@ the bindings are relatively easy and similar to regular editors (Ctrl + S to sav
 
 <br/>
 
+## conclusion
+
 these are all of the setup tips i can provide for setting up [alpine](https://www.alpinelinux.org) through [qemu](https://www.qemu.org) in [termux](https://github.com/termux/termux-app), with [docker](https://www.docker.com), [vim](https://www.vim.org), [tmux](https://github.com/tmux/tmux/wiki), [python](https://www.python.org), [ngrok](https://ngrok.io), [curl](https://curl.se) as well as [micro](https://micro-editor.github.io). i use this setup everyday, and it runs flawlessly once all set up. give it a try yourself if you'd like.
 
 of course, it is also possible to set up a desktop environment for [alpine](https://www.alpinelinux.org) and view it through vnc, but I won't go through how to set that up here. personally i don't use one and just stick to the shell, but there's probably youtube videos that can explain that for you. this was to assist with things that may be difficult to understand and setup in [qemu](https://www.qemu.org) and [alpine](https://www.alpinelinux.org) for most users.
