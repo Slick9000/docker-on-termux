@@ -324,16 +324,6 @@ very useful if you open a lot of sessions at once.
 
 <br/>
 
-## setup [curl](https://curl.se) in [alpine](https://www.alpinelinux.org)
-
-probably the easiest setup in this tutorial, simply run:
-
-```
-apk add --update curl
-```
-
-<br/>
-
 ## setup [python](https://www.python.org) in [alpine](https://www.alpinelinux.org)
 
 now everybody knows that having [python](https://www.python.org) in your back pocket is always useful, though it's not as simple as pkg install [python](https://www.python.org) is in [termux](https://github.com/termux/termux-app). here are the commands needed to install it on [alpine](https://www.alpinelinux.org):
@@ -388,8 +378,46 @@ ngrok http {port}
 
 <br/>
 
-these are all of the setup tips i can provide for setting up [alpine](https://www.alpinelinux.org) through [qemu](https://www.qemu.org) in [termux](https://github.com/termux/termux-app), with [docker](https://www.docker.com), [tmux](https://github.com/tmux/tmux/wiki), [curl](https://curl.se), [python](https://www.python.org), as well as [ngrok](https://ngrok.io). i use this setup everyday, and it runs flawlessly once all set up. give it a try yourself if you'd like.
+## setup [curl](https://curl.se) in [alpine](https://www.alpinelinux.org)
 
-of course, it is also possible to set up a desktop environment for [alpine](https://www.alpinelinux.org) and view it through vnc, but I won't go through how to set that up here. any youtube video can explain that. this was to assist with things that may be difficult to understand and setup in [qemu](https://www.qemu.org) and [alpine](https://www.alpinelinux.org) for most users.
+probably the easiest setup in this tutorial, simply run:
+
+```
+apk add --update curl
+```
+
+<br/>
+
+## install [micro](https://micro-editor.github.io) text editor (requires [curl](https://curl.se), see previous)
+
+for users who aren't familiar with [vim](https://www.vim.org) (or aren't a fan of the keybind-heavy workflow it has) [micro](https://micro-editor.github.io) is a clean, modern alternative which works very well.
+
+with [curl](https://curl.se) installed, run:
+
+```
+curl https://getmic.ro | bash
+```
+
+then, to be able to run [micro](https://micro-editor.github.io) from anywhere, run:
+
+```
+mv micro /usr/bin
+```
+
+to move it to the user apps directory.
+
+you can edit files now by running:
+
+```
+micro {filename}
+```
+
+the bindings are relatively easy and similar to regular editors (Ctrl + S to save, Ctrl + Q to quit, etc). to see the full list, use `Alt + G` to see the full list of bindings, and `Ctrl + H` to get help with anything else.
+
+<br/>
+
+these are all of the setup tips i can provide for setting up [alpine](https://www.alpinelinux.org) through [qemu](https://www.qemu.org) in [termux](https://github.com/termux/termux-app), with [docker](https://www.docker.com), [vim](https://www.vim.org), [tmux](https://github.com/tmux/tmux/wiki), [python](https://www.python.org), [ngrok](https://ngrok.io), [curl](https://curl.se) as well as [micro](https://micro-editor.github.io). i use this setup everyday, and it runs flawlessly once all set up. give it a try yourself if you'd like.
+
+of course, it is also possible to set up a desktop environment for [alpine](https://www.alpinelinux.org) and view it through vnc, but I won't go through how to set that up here. personally i don't use one and just stick to the shell, but there's probably youtube videos that can explain that for you. this was to assist with things that may be difficult to understand and setup in [qemu](https://www.qemu.org) and [alpine](https://www.alpinelinux.org) for most users.
 
 however, a list of compatible desktop environments can be found here on the [official alpine wiki](https://wiki.alpinelinux.org/wiki/Desktop_environments_and_Window_managers)!
