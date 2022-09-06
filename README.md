@@ -390,6 +390,8 @@ apk add --update curl
 
 for users who aren't familiar with [vim](https://www.vim.org) (or aren't a fan of the keybind-heavy workflow it has) [micro](https://micro-editor.github.io) is a clean, modern alternative which works very well.
 
+**EDIT:** navigation with arrow keys in micro appears to be dreadfully slow. maybe stick to vim for text editing on this configuration, however i will vouch for micro as a solid text editor on regular linux systems.
+
 with [curl](https://curl.se) installed, run:
 
 ```
