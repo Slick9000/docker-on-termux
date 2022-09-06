@@ -17,7 +17,7 @@ if you are unaware as to what [qemu](https://www.qemu.org) is, [qemu](https://ww
 
 ## why use [qemu](https://www.qemu.org)/a virtual linux environment on [termux](https://github.com/termux/termux-app)?
 
-- in my use case, i use [qemu](https://www.qemu.org) to run [docker](https://www.docker.com), which usually cannot run natively on [termux](https://github.com/termux/termux-app) due to limitations in the android kernel. this also means that you can run x86 programs on arm64 devices!
+- in my use case, i use [qemu](https://www.qemu.org) to run [docker](https://www.docker.com), which usually cannot run natively on [termux](https://github.com/termux/termux-app) due to limitations in the android kernel. some people have gone the route of creating their own custom kernel to work around this, but this method not only requires experience, but may not be guaranteed to work properly. by using qemu, you can run any x86 programs you desire!
 
 - it also allows me to run programs which typically require a rooted device without having to root my phone (i prefer not to root my android device).
 
