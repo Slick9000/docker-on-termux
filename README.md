@@ -85,7 +85,7 @@ now, to actually run [alpine](https://www.alpinelinux.org) linux in [qemu](https
 qemu-system-x86_64 -cdrom alpine-virt-3.12.3-x86_64.iso -m 2048 -hda hdd.img -nographic
 ```
 
-note: if you prefer to use vnc (like me), run:
+note: if you prefer to use vnc, run:
 
 ```
 qemu-system-x86_64 -cdrom alpine-virt-3.12.3-x86_64.iso -m 2048 -hda hdd.img -vnc 127.0.0.1:1
