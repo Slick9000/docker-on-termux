@@ -31,17 +31,15 @@ i have several old android devices that are currently not in use, and i didn't h
 
 with [termux](https://github.com/termux/termux-app), i knew it would be possible to run my [docker](https://www.docker.com) server through it. all [termux](https://github.com/termux/termux-app) requires is some storage and an android 7+ device and you are good to go, which would save you money from having to buy another device for a server.
 
-**edit:** since then, i've been using it on the nvidia shield (2015) as a server rather than my phone, but the same principal applies.
-
 <br/>
 
 ## why [alpine](https://www.alpinelinux.org)?
 
-simply put, i tried ubuntu, but it either didn't want to boot at all, or it takes so long to boot in [qemu](https://www.qemu.org) i decided it wasn't the distro i wanted.
+simply put, i tried [ubuntu](https://ubuntu.com/), but it either didn't want to boot at all, or it takes so long to boot in [qemu](https://www.qemu.org) i decided it wasn't the distro i wanted.
 
 after some searching for other distros i decided to try [alpine](https://www.alpinelinux.org). [alpine](https://www.alpinelinux.org) has a distribution called virt, which is designed specifically for virtual machines such as [qemu](https://www.qemu.org) and works very well. i was able to install and setup in less than 10 minutes. 
 
-ubuntu is also around 2-3gb in size, while [alpine](https://www.alpinelinux.org)'s is much smaller (the iso for [alpine](https://www.alpinelinux.org) virt is ~39mb, and when setup it's very small in size as well). while for the modern user this may not be problematic, it's still nice to prevent bloating your device storage.
+[ubuntu](https://ubuntu.com/) is also around 2-3gb in size, while [alpine](https://www.alpinelinux.org)'s is much smaller (the iso for [alpine](https://www.alpinelinux.org) virt is ~39mb, and when setup it's very small in size as well). while for the modern user this may not be problematic, it's still nice to prevent bloating your device storage.
 
 **[*] keep in mind, [qemu](https://www.qemu.org) will take a while to boot [alpine](https://www.alpinelinux.org) (sometimes it can take up to 5 minutes). so don't think that it's not working, it's simply just qemu's boot time for alpine. once it's started however, it works flawlessly!**
 
