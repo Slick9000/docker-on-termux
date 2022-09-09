@@ -428,4 +428,7 @@ there's several tutorials on how to do so however, and a list of compatible desk
 
 ## screenshots
 what to see what it looks like? here's a neofetch screenshot (running on the nvidia shield 2015:
+
+<br/>
+
 <img src="neofetch.png">
