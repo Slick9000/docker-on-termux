@@ -424,6 +424,8 @@ of course, it is also possible to set up a desktop environment or window manager
 
 there's several tutorials on how to do so however, and a list of compatible desktop environments can be found here on the [official alpine wiki](https://wiki.alpinelinux.org/wiki/Desktop_environments_and_Window_managers)!
 
+<br/>
+
 ## screenshots
 what to see what it looks like? here's a neofetch screenshot (running on the nvidia shield 2015:
 <img src="neofetch.png">
