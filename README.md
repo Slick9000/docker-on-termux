@@ -423,3 +423,7 @@ these are all of the setup tips i can provide for setting up [alpine](https://ww
 of course, it is also possible to set up a desktop environment or window manager for [alpine](https://www.alpinelinux.org) and view it through vnc, but personally i don't use one and just stick to the shell. this was also made to assist with things that may be difficult to understand and setup in [qemu](https://www.qemu.org) and [alpine](https://www.alpinelinux.org) for most users. 
 
 there's several tutorials on how to do so however, and a list of compatible desktop environments can be found here on the [official alpine wiki](https://wiki.alpinelinux.org/wiki/Desktop_environments_and_Window_managers)!
+
+## screenshots
+what to see what it looks like? here's a neofetch screenshot (running on the nvidia shield 2015:
+<img src="neofetch.png">
