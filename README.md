@@ -288,6 +288,30 @@ to create a new window, simply do:
 tmux
 ```
 
+or run the command
+
+```
+Ctrl-B + C
+```
+
+to move to the previous window, run:
+
+```
+Ctrl-B + P
+```
+
+to move to the next window, run:
+
+```
+Ctrl-B + N
+```
+
+to immediately move to a specific window (0-9), run:
+
+```
+Ctrl-B {number}
+```
+
 to reattach to a window, do:
 
 ```
