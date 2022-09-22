@@ -260,7 +260,7 @@ docker rm {docker container id}
 
 ## setup a terminal multiplexor([tmux](https://github.com/tmux/tmux/wiki)) in [alpine](https://www.alpinelinux.org)
 
-in the case that you would like to run multiple services at once in [alpine](https://www.alpinelinux.org), such as a discord bot, a discord server, and a plex server, it is recommended you get [tmux](https://github.com/tmux/tmux/wiki).
+in the case that you would like to run multiple services at once in [alpine](https://www.alpinelinux.org), such as a discord bot, an nginx server, and a plex server, it is recommended you get [tmux](https://github.com/tmux/tmux/wiki).
 
 to install, run:
 
