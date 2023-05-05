@@ -29,7 +29,7 @@ if you are unaware as to what [qemu](https://www.qemu.org) is, [qemu](https://ww
 
 i have several old android devices that are currently not in use, and i didn't have a device like a raspberry pi to run a linux server on. 
 
-with [termux](https://github.com/termux/termux-app), i knew it would be possible to run my [docker](https://www.docker.com) server through it. all [termux](https://github.com/termux/termux-app) requires is some storage and an android 7+ device and you are good to go, which would save you money from having to buy another device for a server.
+with [termux](https://github.com/termux/termux-app), i knew it would be possible to run my [docker](https://www.docker.com) server through it. all [termux](https://github.com/termux/termux-app) requires is some free storage space and android 7+ (**android 5** if you use [termux-v0.79-offline-bootstraps](https://archive.org/download/termux-repositories-legacy/termux-v0.79-offline-bootstraps.apk) and follow [these instructions](https://android.stackexchange.com/a/247272)) and you are good to go, which would save you money from having to buy another device for a server.
 
 <br/>
 
