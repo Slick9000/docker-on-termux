@@ -152,7 +152,9 @@ vim /etc/apk/repositories
 once in here, you must remove the # (comment character) from the second line, which says:
 #http://mirror.reeningne.net/alpine/v3.16/community
 
-this is a simple walkthrough as to how to edit the file with [vim](https://www.vim.org) (for those familiar with [vim](https://www.vim.org), you can skip this part):
+this is a simple walkthrough as to how to edit the file with [vim](https://www.vim.org) (for those familiar with [vim](https://www.vim.org), you can skip this part).
+
+also, if you cannot understand vim or don't like it, skip to [installing micro](https://github.com/Slick9000/docker-on-termux#install-micro-text-editor-requires-curl-see-previous) and come back here.
 
 >  press i to enter insert mode
 
@@ -411,6 +413,8 @@ apk add --update curl
 <br/>
 
 ## install [micro](https://micro-editor.github.io) text editor (requires [curl](https://curl.se), see previous)
+
+**if you came from the package manager section, you can return there by clicking [here](https://github.com/Slick9000/docker-on-termux#unlock-full-functionality-of-the-package-manager-in-alpine) to finish the tutorial
 
 for users who aren't familiar with [vim](https://www.vim.org) (or aren't a fan of the keybind-heavy workflow it has) [micro](https://micro-editor.github.io) is a clean, modern alternative for those familiar with keybinds similar to [Microsoft's Visual Studio (VS) Code](https://code.visualstudio.com).
 
