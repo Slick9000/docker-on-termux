@@ -137,6 +137,15 @@ these will be the commands used for every boot from now on.
 
 to install some programs such as [docker](https://www.docker.com), you will need to unlock the community package in the apk package manager.
 
+you can do this by either using:
+
+<br/>
+
+1. **micro**, better editor for beginners with familiar keybinds, [click here if you want to install it](https://github.com/Slick9000/docker-on-termux#install-micro-text-editor-requires-curl-see-previous)
+2. **vim**, which i'll be using for this tutorial. i recommend it for intermediate users, however i will walk you through it if you're unfamiliar.
+
+<br/>
+
 to do so, you'll need to edit the packages file using a text editor. i'll be using [vim](https://www.vim.org) for this tutorial. install [vim](https://www.vim.org) by running:
 
 ```
@@ -151,10 +160,6 @@ vim /etc/apk/repositories
 
 once in here, you must remove the # (comment character) from the second line, which says:
 #http://mirror.reeningne.net/alpine/v3.16/community
-
-this is a simple walkthrough as to how to edit the file with [vim](https://www.vim.org) (for those familiar with [vim](https://www.vim.org), you can skip this part).
-
-also, if you cannot understand vim or don't like it, skip to [installing micro](https://github.com/Slick9000/docker-on-termux#install-micro-text-editor-requires-curl-see-previous) and come back here.
 
 >  press i to enter insert mode
 
@@ -414,7 +419,7 @@ apk add --update curl
 
 ## install [micro](https://micro-editor.github.io) text editor (requires [curl](https://curl.se), see previous)
 
-**if you came from the package manager section, you can return there by clicking [here](https://github.com/Slick9000/docker-on-termux#unlock-full-functionality-of-the-package-manager-in-alpine) to finish the tutorial
+**if you came from the package manager section, you can return there by clicking [here](https://github.com/Slick9000/docker-on-termux#unlock-full-functionality-of-the-package-manager-in-alpine) to finish the tutorial**
 
 for users who aren't familiar with [vim](https://www.vim.org) (or aren't a fan of the keybind-heavy workflow it has) [micro](https://micro-editor.github.io) is a clean, modern alternative for those familiar with keybinds similar to [Microsoft's Visual Studio (VS) Code](https://code.visualstudio.com).
 
@@ -448,7 +453,7 @@ the bindings are relatively easy and similar to regular editors (Ctrl + S to sav
 
 these are all of the setup tips i can provide for setting up [alpine](https://www.alpinelinux.org) through [qemu](https://www.qemu.org) in [termux](https://github.com/termux/termux-app), with [docker](https://www.docker.com), [vim](https://www.vim.org), [tmux](https://github.com/tmux/tmux/wiki), [python](https://www.python.org), [ngrok](https://ngrok.io), [curl](https://curl.se) as well as [micro](https://micro-editor.github.io). i use this setup everyday, and it runs flawlessly once all set up. give it a try yourself if you'd like.
 
-of course, it is also possible to set up a desktop environment or window manager for [alpine](https://www.alpinelinux.org) and view it through vnc, but personally i don't use one and just stick to the shell. this was also made to assist with things that may be difficult to understand and setup in [qemu](https://www.qemu.org) and [alpine](https://www.alpinelinux.org) for most users. 
+of course, it is also possible to set up a desktop environment or window manager for [alpine](https://www.alpinelinux.org) and view it through vnc, but personally i don't use one and just stick to the shell. this was also made to assist with things that may be difficult to understand and setup in [qemu](https://www.qemu.org) and [alpine](https://www.alpinelinux.org) for most users, as i personally had a hard time when i first set it up and didn't want that for anyone else.
 
 there's several tutorials on how to do so however, and a list of compatible desktop environments can be found here on the [official alpine wiki](https://wiki.alpinelinux.org/wiki/Desktop_environments_and_Window_managers)!
 
