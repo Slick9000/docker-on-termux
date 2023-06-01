@@ -195,7 +195,7 @@ docker run {package}
 
 if you try to do this, you will receive the error:
 
-Cannot connect to the [docker](https://www.docker.com) daemon at unix:///var/run/docker.sock. Is the [docker](https://www.docker.com) daemon running?
+`Cannot connect to the [docker](https://www.docker.com) daemon at unix:///var/run/docker.sock. Is the [docker](https://www.docker.com) daemon running?`
 
 now the first thing you're probably thinking is: what the hell does that mean?
 
