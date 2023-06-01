@@ -141,7 +141,7 @@ you can do this by either using:
 
 <br/>
 
-1. **micro**, better editor for beginners with familiar keybinds, [click here if you want to install it](https://github.com/Slick9000/docker-on-termux#install-micro-text-editor-requires-curl-see-previous)
+1. **micro**, better editor for beginners with keybinds similar to [vs code](https://code.visualstudio.com) and [notepad++](https://notepad-plus-plus.org), [click here if you want to install it](https://github.com/Slick9000/docker-on-termux#install-micro-text-editor-requires-curl-see-previous)
 2. **vim**, which i'll be using for this tutorial. i recommend it for intermediate users, however i will walk you through it if you're unfamiliar.
 
 <br/>
