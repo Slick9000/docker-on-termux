@@ -9,6 +9,20 @@ while completely optional, it would be highly appreciated if you could donate if
 
 <br/>
 
+## NEW NOTE - USE PROOT
+
+at the time of writing this, i did not know of the existence of [proot](https://proot-me.github.io).
+
+through proot, it is possible for to use an app such as [andronix](https://andronix.app) which has a list of install scripts for any distro you want (i prefer ubuntu, it makes me not have to do the extra setup stuff alpine required me to do previously), even with desktop and window managers to access through vnc.
+
+this achieves the same purpose as qemu and doesn't have a long startup time/weird compatibality with termux like qemu may have. this also means that users don't need any privileges or setup to do things like using an arbitrary directory as the new root filesystem, making files accessible somewhere else in the filesystem hierarchy, or executing programs built for another CPU architecture transparently through qemu user-mode.
+
+and the goal of this guide is not **qemu on termux** but docker on termux, so please use proot with a distro install script for a way better experience. the instructions they give are straightforward in the app, so i won't list them here.
+
+[click here to script past the qemu install process if you so desire.](https://github.com/Slick9000/docker-on-termux#setup-docker-on-alpine). the only difference is not rather than **apk**, you will have to use the package manager of the distro you installed to install these packages (debian, ubuntu and any other debian-based distros use **apt**. look up which one your distro uses if unsure.
+
+<br/>
+
 ## what is [qemu](https://www.qemu.org)?
 
 if you are unaware as to what [qemu](https://www.qemu.org) is, [qemu](https://www.qemu.org), is a free and open-source emulator, that is able to emulate machine processors with full operating system emulation, similar to other virtual machine applications such as [virtualbox](https://www.virtualbox.org/), allowing you to run one operating system on another. however [qemu](https://www.qemu.org) works natively as a package in [termux](https://github.com/termux/termux-app).
