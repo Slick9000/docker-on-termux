@@ -17,7 +17,7 @@ through proot, it is possible for to use an app such as [andronix](https://andro
 
 this achieves the same purpose as qemu and doesn't have a long startup time/weird compatibality with termux like qemu may have. this also means that users don't need any privileges or setup to do things like using an arbitrary directory as the new root filesystem, making files accessible somewhere else in the filesystem hierarchy, or executing programs built for another CPU architecture transparently through qemu user-mode. thus, there is no disadvantage, and i **recommend** it over qemu unless you have some weird issue that your program. doesn't work with proot distro
 
-and the goal of this guide is not **qemu on termux** but docker on termux, so please use proot with a distro install script for a way better experience. the instructions they give are straightforward in the app, so i won't list them here.
+and the goal of this guide is not **qemu on termux** but **docker on termux**, so please use proot with a distro install script for a way better experience. the instructions they give are straightforward in the app, so i won't list them here.
 
 [click here to script past the qemu install process if you so desire](https://github.com/Slick9000/docker-on-termux#setup-docker-on-alpine). the only difference is not rather than **apk**, you will have to use the package manager of the distro you installed to install these packages (debian, ubuntu and any other debian-based distros use **apt**. look up which one your distro uses if unsure.
 
