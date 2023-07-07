@@ -1,5 +1,5 @@
 # docker-on-termux
-setup [docker](https://www.docker.com) on [termux](https://termux.dev/en) on through [qemu](https://www.qemu.org) on [termux](https://www.qemu.org), as well as other things.
+setup [docker](https://www.docker.com) on [termux](https://www.qemu.org), as well as other things.
 
 ## ☕ donations
 
