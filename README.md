@@ -15,7 +15,9 @@ at the time of writing this, i did not know of the existence of [proot](https://
 
 through proot, it is possible for to use an app such as [andronix](https://andronix.app) which has a list of install scripts for any distro you want (i prefer ubuntu, it avoids the extra setup alpine requires), even with desktop and window managers to access through vnc.
 
-this achieves the same purpose as qemu and doesn't have a long startup time/weird compatibality with termux like qemu may have. this also means that users don't need any privileges or setup to do things like using an arbitrary directory as the new root filesystem, making files accessible somewhere else in the filesystem hierarchy, or executing programs built for another CPU architecture transparently through qemu user-mode. thus, there is no disadvantage, and i **recommend** it over qemu unless you have some weird issue that your program doesn't work with proot distro
+this achieves the same purpose as qemu and doesn't have a long startup time that qemu has. it can still executing programs built for another CPU architecture transparently through qemu user-mode and create a root filesystem separate from the main system like qemu does. 
+
+thus, there is no disadvantage, and i **recommend** it over qemu.
 
 and the goal of this guide is not **qemu on termux** but **docker on termux**, so please use proot with a distro install script for a way better experience. the instructions they give are straightforward in the app, so i won't list them here.
 
