@@ -483,3 +483,11 @@ what to see what it looks like? here's a neofetch screenshot of it running on th
 <br/>
 
 <img src="neofetch.png">
+
+<br/>
+
+## sidenote
+
+if you want a clean, native desktop environment for termux using xfce4 and openbox (for purposes other than docker, for example to use firefox, word processing, coding etc), take a look at [termux-desktop](https://github.com/khansaad1275/termux-desktop-Bug-Fixed)https://github.com/khansaad1275/termux-desktop-Bug-Fixed. currently the main branch is broken due to a package deprecation, but this branch will work and the install process is quite easy and the desktop looks great.
+
+anyways, that's the end of this LONG documentation. i hope this can help someone who is as obsessed with termux as i am, and who tries to take full advantage of the potential of android.
