@@ -19,9 +19,9 @@ this achieves the same purpose as qemu and doesn't have a long startup time that
 
 thus, there is no disadvantage, and i **recommend** it over qemu.
 
-and the goal of this guide is not **qemu on termux** but **docker on termux**, so please use proot with a distro install script for a way better experience. the instructions they give are straightforward in the app, so i won't list them here.
+and the goal of this guide is not **qemu on termux** but **docker on termux**, so please use proot with a distro install script for a way better experience. the instructions they give are straightforward in the app, so i won't list them here. i will not remove the instructions for how to install and use qemu however, as some persons may experience better results with it.
 
-[click here to script past the qemu install process if you so desire](https://github.com/Slick9000/docker-on-termux#setup-docker-on-alpine). the only difference is not rather than **apk**, you will have to use the package manager of the distro you installed to install these packages (debian, ubuntu and any other debian-based distros use **apt**. look up which one your distro uses if unsure.
+[click here to script past the qemu install process if you so desire](https://github.com/Slick9000/docker-on-termux#setup-docker-on-alpine). the only difference is rather than **apk**, you will have to use the package manager of the distro you installed to install these packages (debian, ubuntu and any other debian-based distros uses **apt**. look up which one your distro uses if unsure). if the package has its own unique install not using apk in this documentation, you can still use that install process just fine.
 
 if you're having issues with root priviledges, you can try [udocker](https://github.com/indigo-dc/udocker), which executes in user mode rather than root.
 
